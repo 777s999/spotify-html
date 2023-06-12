@@ -1,0 +1,110 @@
+/* css code goes here */
+body{
+    margin: 0px;
+    background-color: rgb(25,20,20);
+   font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    background-color: rgb(25, 20, 20);
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+nav img{
+    height: 60px;
+    width: 60px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    
+}
+nav li a{
+text-decoration: none;
+ color:rgb(255, 255, 255);
+}
+nav li a:hover{
+    color: rgb(30,215,96);
+}
+#download{
+    color:rgb(255,255,255);
+    padding: 10px 20px;
+    background-color: inherit;
+    text-align: center;
+    
+}
+#download h1{
+    font-weight: 700;
+    line-height: 2;
+}
+#download h2{
+    font-weight: 500;
+    line-height: 3;
+}
+#download button{
+    background-color:rgb(255,255,255);
+    padding: 12px;
+    margin-bottom: 35px;
+    font-weight: 500;
+    border-radius: 20px;
+    font-family: inherit;
+    cursor: pointer;
+   
+}
+#download button:hover{
+
+    transform: scale(1.02);
+}
+@media (max-width: 650px) {
+  #download button {
+    width: 100%;
+  }
+}
+#difference-table{
+    background-color: rgb(246,246,246);
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+}
+#difference-table h1{
+    font-weight: 700;
+    padding: 0px 50px;
+}
+#difference-table table{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 45px;
+}
+#difference-table th{
+    font-weight: 300;
+}
+#difference-table td{
+    border-bottom: 1px solid rgb(170,170,170);
+}
+.fa-regular.fa-circle-check{
+    color: rgb(30,215,96);
+    font-size: 30px;
+}
+.fa-regular.fa-circle-xmark{
+ color: rgb(255,0,0);
+ font-size: 30px;
+}
+#difference-table button{
+    background-color: rgb(25,20,20);
+    padding: 12px 40px;
+    font-weight: 500;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: inherit;
+    color: rgb(255, 255, 255);
+}
+#premium{
+    background-color: rgb(255,255,255);
+    text-align: center;
+    padding: 20px;
+}
+#premium h2{
+margin: 0;
+}
